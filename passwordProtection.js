@@ -1,6 +1,6 @@
 function checkPassword() {
     const password = prompt("Enter the password:");
-    const correctPassword = 'yourPassword'; // Change this to your desired password
+    const correctPassword = 'password'; // Change this to your desired password
 
     if (password === correctPassword) {
         localStorage.setItem('accessGranted', 'true');
